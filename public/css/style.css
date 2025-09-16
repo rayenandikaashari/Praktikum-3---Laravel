@@ -1,0 +1,198 @@
+/* Reset default style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background: #f5f9ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    background: #0077b6;
+    padding: 12px 24px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul a:hover {
+    color: #caf0f8;
+}
+
+/* Main container */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    color: #023e8a;
+    font-size: 26px;
+}
+
+/* Button */
+button {
+    background: #0096c7;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #0077b6;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background: #0077b6;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+    background: #f1f9ff;
+}
+
+tr:hover {
+    background: #e3f2fd;
+}
+
+/* Home section */
+.home-intro {
+    background: #e6f2ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #023e8a;
+}
+
+.home-actions {
+    display: flex;
+    gap: 15px;
+}
+
+/* Form Container */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: 15px 0 20px 0px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 1px solid #e3f2fd;
+}
+
+
+/* Form Group */
+form div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label */
+form label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #0077b6;
+}
+
+/* Input */
+form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #90e0ef;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    transition: border 0.3s, background 0.3s;
+}
+
+form input[type="text"]:focus {
+    border: 1px solid #0077b6;
+    background: #f1f9ff;
+    box-shadow: 0 0 5px rgba(0, 119, 182, 0.3);
+}
+
+/* Submit Button */
+form button {
+    background: #0077b6;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #023e8a;
+}
+
+.funfact-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.funfact-list li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 16px;
+    line-height: 1.5;
+    transition: 0.3s;
+}
+
+.funfact-list li:hover {
+    background: #eef6ff;
+    border-color: #90caf9;
+    transform: translateX(4px);
+}
+
